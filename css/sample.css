@@ -1,0 +1,105 @@
+body {
+    margin:auto;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    max-width: 1280px;
+}
+    
+.wrap{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    min-height: 100%;
+}
+
+header {
+    /* background-color:#fff; */
+    /* border-bottom: 1px solid #cccccc;  */
+    text-align: center;
+    padding-top: 0;
+    max-width: 1280px;
+    font-size: 48px;
+    
+
+}
+
+main {
+ border-bottom: 1px solid #ccc;  
+ background-color:rgb(121, 192, 121);
+ max-width:1280px;
+
+}
+
+
+footer {
+    background-color: #fff;
+     /* border-bottom: 1px solid #ccc;  */
+    text-align: center;
+    font-size: 10px;
+    clear: both;
+    
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 48px;
+    font-family: "M PLUS 1p";
+}
+
+ p {
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    height: 200px;
+} 
+
+ul {
+    padding: 0;
+    display: table;
+    /* 定義 */
+     table-layout:fixed;
+     width:100%;
+} 
+
+
+li {
+    list-style-type: none;
+     display: table-cell;
+    /* 定義 */
+    cursor: pointer;
+    text-align: center;
+}  
+
+#pc_hands {
+        text-align: center;
+        color:purple;
+        
+}
+#judgment {
+        text-align: center;
+    }
+
+    li:hover {
+        background:whitesmoke;
+        color: #fff;
+    }
+    button {
+        background-color: brown;
+        border: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: yellowgreen;
+    }
+   
+
